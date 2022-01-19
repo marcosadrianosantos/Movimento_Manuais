@@ -1,0 +1,82 @@
+<p>Movimento Manuais</p>
+
+<div>
+  <form>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputMes">Mês:</label>
+        <input type="number" class="form-control" id="inputMes" [disabled]="disabled" [(ngModel)]="movimentoManual.DAT_MES" name="DAT_MES">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputAno">Ano:</label>
+        <input type="number" class="form-control" id="inputAno" [disabled]="disabled" [(ngModel)]="movimentoManual.DAT_ANO" name="DAT_ANO">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="selectProduto">Produto:</label>
+        <select class="form-control" id="selectProduto" [disabled]="disabled" [(ngModel)]="movimentoManual.coD_PRODUTO" (change)="getCosif()" name="DES_PRODUTO">
+          <option selected>--Selecione--</option>
+          <option *ngFor="let produto of produtos; let i = index" [ngValue]="produto.coD_PRODUTO">
+            {{produto.deS_PRODUTO}}
+          </option>
+        </select>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="selectCosif">Cosif:</label>
+        <select class="form-control" id="selectCosif" [disabled]="disabled" [(ngModel)]="movimentoManual.coD_COSIF" name="COD_COSIF">
+          <option selected>--Selecione--</option>
+          <option *ngFor="let cosif of cosifs, let i = index" [ngValue]="cosif.coD_COSIF">
+            {{cosif.coD_CLASSIFICACAO}}
+          </option>
+        </select>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputValor">Valor:</label>
+        <input type="text" class="form-control" id="inputValor" type="number" [disabled]="disabled" [(ngModel)]="movimentoManual.VAL_VALOR"
+               name="VAL_VALOR">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputDescricao">Descricao:</label>
+        <textarea class="form-control" id="inputDescricao" rows="3" type="textarea" [disabled]="disabled"
+                  [(ngModel)]="movimentoManual.DES_DESCRICAO" name="DES_DESCRICAO"></textarea>
+      </div>
+    </div>
+    <div class="form-group col-md-6">
+      <div class="float-right">
+        <button type="submit" class="btn btn-primary" (click)="limparForm()">Limpar</button>
+        <button type="submit" class="btn btn-primary" (click)="disabled = false">Novo</button>
+        <button type="submit" class="btn btn-primary" (click)="post()">Incluir</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Mês</th>
+      <th scope="col">Ano</th>
+      <th scope="col">Código Produto</th>
+      <th scope="col">Descrição Produto</th>
+      <th scope="col">NR Lançamento</th>
+      <th scope="col">Descrição</th>
+      <th scope="col">Valor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let movimentoManual of movimentosManuais">
+      <td>{{movimentoManual.daT_MES}}</td>
+      <td>{{movimentoManual.daT_ANO}}</td>
+      <td>{{movimentoManual.coD_PRODUTO}}</td>
+      <td>{{movimentoManual.deS_PRODUTO}}</td>
+      <td>{{movimentoManual.nuM_LANCAMENTO}}</td>
+      <td>{{movimentoManual.deS_DESCRICAO}}</td>
+      <td>{{movimentoManual.vaL_VALOR}}</td>
+    </tr>
+  </tbody>
+</table>

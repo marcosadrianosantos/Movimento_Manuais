@@ -1,0 +1,12 @@
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.Data\bin\Debug\netcoreapp3.1\MovimentosManuais.Data.deps.json
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.Data\bin\Debug\netcoreapp3.1\MovimentosManuais.Data.dll
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.Data\bin\Debug\netcoreapp3.1\MovimentosManuais.Data.pdb
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.Data\bin\Debug\netcoreapp3.1\MovimentosManuais.Domain.dll
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.Data\bin\Debug\netcoreapp3.1\MovimentosManuais.Domain.pdb
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.Data\obj\Debug\netcoreapp3.1\MovimentosManuais.Data.csprojAssemblyReference.cache
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.Data\obj\Debug\netcoreapp3.1\MovimentosManuais.Data.AssemblyInfoInputs.cache
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.Data\obj\Debug\netcoreapp3.1\MovimentosManuais.Data.AssemblyInfo.cs
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.Data\obj\Debug\netcoreapp3.1\MovimentosManuais.Data.csproj.CoreCompileInputs.cache
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.Data\obj\Debug\netcoreapp3.1\MovimentosManuais.Data.csproj.CopyComplete
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.Data\obj\Debug\netcoreapp3.1\MovimentosManuais.Data.dll
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.Data\obj\Debug\netcoreapp3.1\MovimentosManuais.Data.pdb

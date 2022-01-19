@@ -1,0 +1,16 @@
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\bin\Debug\netcoreapp3.1\MovimentosManuais.IoC.deps.json
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\bin\Debug\netcoreapp3.1\MovimentosManuais.IoC.dll
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\bin\Debug\netcoreapp3.1\MovimentosManuais.IoC.pdb
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\bin\Debug\netcoreapp3.1\MovimentosManuais.Application.dll
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\bin\Debug\netcoreapp3.1\MovimentosManuais.Data.dll
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\bin\Debug\netcoreapp3.1\MovimentosManuais.Domain.dll
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\bin\Debug\netcoreapp3.1\MovimentosManuais.Application.pdb
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\bin\Debug\netcoreapp3.1\MovimentosManuais.Data.pdb
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\bin\Debug\netcoreapp3.1\MovimentosManuais.Domain.pdb
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\obj\Debug\netcoreapp3.1\MovimentosManuais.IoC.csprojAssemblyReference.cache
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\obj\Debug\netcoreapp3.1\MovimentosManuais.IoC.AssemblyInfoInputs.cache
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\obj\Debug\netcoreapp3.1\MovimentosManuais.IoC.AssemblyInfo.cs
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\obj\Debug\netcoreapp3.1\MovimentosManuais.IoC.csproj.CoreCompileInputs.cache
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\obj\Debug\netcoreapp3.1\MovimentosManuais.IoC.csproj.CopyComplete
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\obj\Debug\netcoreapp3.1\MovimentosManuais.IoC.dll
+D:\Teste_Itau\TesteAntlia-Itau\MovimentosManuais\MovimentosManuais.IoC\obj\Debug\netcoreapp3.1\MovimentosManuais.IoC.pdb

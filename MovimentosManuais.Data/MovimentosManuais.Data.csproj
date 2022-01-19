@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210529142129_Adicionando parametros para Produto e Cosif.cs" />
+    <Compile Remove="Migrations\20210529142129_Adicionando parametros para Produto e Cosif.Designer.cs" />
+    <Compile Remove="Migrations\20210529142445_Added parameters to Produto and Cosif.cs" />
+    <Compile Remove="Migrations\20210529142445_Added parameters to Produto and Cosif.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovimentosManuais.Domain\MovimentosManuais.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

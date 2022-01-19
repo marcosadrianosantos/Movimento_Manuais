@@ -1,0 +1,292 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.IoC\\MovimentosManuais.IoC.csproj": {}
+  },
+  "projects": {
+    "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Application\\MovimentosManuais.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Application\\MovimentosManuais.Application.csproj",
+        "projectName": "MovimentosManuais.Application",
+        "projectPath": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Application\\MovimentosManuais.Application.csproj",
+        "packagesPath": "C:\\Users\\Marcos Santos\\.nuget\\packages\\",
+        "outputPath": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Marcos Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj": {
+                "projectPath": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Data\\MovimentosManuais.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Data\\MovimentosManuais.Data.csproj",
+        "projectName": "MovimentosManuais.Data",
+        "projectPath": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Data\\MovimentosManuais.Data.csproj",
+        "packagesPath": "C:\\Users\\Marcos Santos\\.nuget\\packages\\",
+        "outputPath": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Marcos Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj": {
+                "projectPath": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj",
+        "projectName": "MovimentosManuais.Domain",
+        "projectPath": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj",
+        "packagesPath": "C:\\Users\\Marcos Santos\\.nuget\\packages\\",
+        "outputPath": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Marcos Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.IoC\\MovimentosManuais.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.IoC\\MovimentosManuais.IoC.csproj",
+        "projectName": "MovimentosManuais.IoC",
+        "projectPath": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.IoC\\MovimentosManuais.IoC.csproj",
+        "packagesPath": "C:\\Users\\Marcos Santos\\.nuget\\packages\\",
+        "outputPath": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Marcos Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Application\\MovimentosManuais.Application.csproj": {
+                "projectPath": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Application\\MovimentosManuais.Application.csproj"
+              },
+              "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Data\\MovimentosManuais.Data.csproj": {
+                "projectPath": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Data\\MovimentosManuais.Data.csproj"
+              },
+              "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj": {
+                "projectPath": "D:\\Teste_Itau\\TesteAntlia-Itau\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
